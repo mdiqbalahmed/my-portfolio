@@ -9,3 +9,7 @@
 *{
     @apply bg-black;
 }
+
+.bg-p-color{
+    @apply bg-gradient-to-r from-orange-400 to-pink-600 inline-block;
+}
