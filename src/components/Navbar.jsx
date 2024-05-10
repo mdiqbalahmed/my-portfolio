@@ -14,7 +14,7 @@ const Navbar = () => {
         <div>
             <div className= " bg-black  text-gray-400 h-[100px] mx-auto flex justify-between items-center max-w-[1240px] fixed left-0 right-0 ">
 
-                <h1 className="text-3xl font-bold primary-color ml-4">Md Iqbal Ahmed</h1>
+                <h1 className="text-3xl font-bold primary-color ml-4"> Iqbal Ahmed</h1>
                 <ul className="hidden md:flex">
                     <li className="p-5">About</li>
                     <li className="p-5">Work</li>

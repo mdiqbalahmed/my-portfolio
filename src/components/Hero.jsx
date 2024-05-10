@@ -34,16 +34,16 @@ const Hero = () => {
             <p className=' text-white sm: text-lg my-6 lg:text-xl'>
                 My name is Md Iqbal Ahmed and I am a Frontend Devloper
             </p>
-            <div className=' text-5xl flex gap-7 text-orange-500'>
-                    <AiFillLinkedin/>
-                    <AiFillGithub/>
+            <div className=' text-5xl flex gap-7 text-orange-500 cursor-pointer'>
+                  <a href='https://www.linkedin.com/in/iqbal-ahmed-4bb85215a/'>  <AiFillLinkedin /></a>
+                    <a href='https://github.com/mdiqbalahmed'><AiFillGithub /></a>
                     <AiFillFacebook/>
 
             </div>
 
             <div className=' my-8'>
                
-                    <a href="" className=" text-white py-3 px-6 rounded-xl w-full mr-4 bg-gradient-to-tr from-orange-500 to-pink-500 w-full">
+                    <a href="https://drive.google.com/file/d/1k4tDU9wYTpif79qok-bO0va9gtj6yEJ3/view" className=" text-white py-3 px-6 rounded-xl w-full mr-4 bg-gradient-to-tr from-orange-500 to-pink-500 w-full">
                         Download Resume
                     </a>
                     <a href="" className=" text-white py-3 px-6 rounded-xl w-full mr-4 hover:bg-gradient-to-tr from-orange-500 to-pink-500 border border-gray-400">

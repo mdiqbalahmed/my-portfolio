@@ -10,22 +10,40 @@ const Works = () => {
             
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
 
-            <div className=" transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-black group rounded-md flex justify-center items-center h-[200px] bg-cover relative" >
-                <img src={project1} alt="" />
-                <div className=' opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center' >
-                    <span className=' text-2xl font-bold text-white tracking-wider'>project</span>
-                </div>
-                <div className=' pt-8 text-center'>
-                    <a href="">
-                        <button className=' text-center rounded-lg px-4 py-3 m2 bg-white text-gray-700 font-bold text-lg '>
-                            live   
-                        </button>
-                    </a>
-                </div>
-            </div>
+            <a className="p-4 max-w-lg border border-orange-600 rounded-2xl hover:shadow-xl hover:shadow-orange-700 flex flex-col items-center"
+    href="#">
+   <img className='shadow rounded-lg overflow-hidden border w-full' src="https://i.ibb.co/YTrkkFr/image.png" alt="" />
+    <div className="mt-8">
+        
+        <div className="mt-5 ">
+            <a href="https://wedding-management-phi.vercel.app/"><button type="button" className="inline-flex items-center rounded-md border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900">Live Site</button></a>
+            <a href="https://github.com/mdiqbalahmed/Wedding-management"><button type="button" className="inline-flex items-center rounded-md border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 ml-10">Code Link</button></a>
+        </div>
+    </div>
+</a>
+<a className="p-4 max-w-lg border border-orange-600 rounded-2xl hover:shadow-xl hover:shadow-orange-700 flex flex-col items-center"
+    href="#">
+   <img className='shadow rounded-lg overflow-hidden border w-full' src="https://i.ibb.co/RQ227NB/image.png" alt="" />
+    <div className="mt-8">
+        
+        <div className="mt-5 ">
+            <a href="https://wonderful-jelly-1046c2.netlify.app/"><button type="button" className="inline-flex items-center rounded-md border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900">Live Site</button></a>
+            <a href="https://github.com/mdiqbalahmed/News-Blogs"><button type="button" className="inline-flex items-center rounded-md border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 ml-10">Code Link</button></a>
+        </div>
+    </div>
+</a>
 
-
-
+<a className="p-4 max-w-lg border border-orange-600 rounded-2xl hover:shadow-xl hover:shadow-orange-700 flex flex-col items-center"
+    href="#">
+   <img className='shadow rounded-lg overflow-hidden border w-full' src="https://i.ibb.co/c3Hbs41/image.png" alt="" />
+    <div className="mt-8">
+        
+        <div className="mt-5 ">
+            <a href="https://663e1a9cfed9c21672231dc2--calm-zuccutto-1c7147.netlify.app/"><button type="button" className="inline-flex items-center rounded-md border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900">Live Site</button></a>
+            <a href="https://github.com/mdiqbalahmed/Read-Blogs"><button type="button" className="inline-flex items-center rounded-md border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 ml-10">Code Link</button></a>
+        </div>
+    </div>
+</a>
 
 
             </div>
